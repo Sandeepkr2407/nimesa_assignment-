@@ -5,7 +5,7 @@ QA Engineer Intern_Assignment Round
 
 Test cases
 ---------------
-	
+	```
 	@Test
 	public void testCase1() throws ParseException {
 		int input = 1;
@@ -155,6 +155,7 @@ Test cases
 		Map<String, ArrayList<Double>> result = locationServiceTest.locationTest(input, date);
 		System.out.println(result);
 }
+```
 ------------------------------
 
 Output
