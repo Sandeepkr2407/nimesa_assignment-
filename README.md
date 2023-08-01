@@ -28,7 +28,7 @@ Test cases
 		Map<String, ArrayList<Double>> result = locationServiceTest.locationTest(input, date);
 		System.out.println(result);
 
-}
+	}
 	@Test
 	public void testCase4() throws ParseException {
 		int input = 1;
@@ -51,7 +51,7 @@ Test cases
 		Map<String, ArrayList<Double>> result = locationServiceTest.locationTest(input, date);
 		System.out.println(result);
 
-}
+	}
 	@Test
 	public void testCase7() throws ParseException {
 		int input = 1;
@@ -74,7 +74,7 @@ Test cases
 		Map<String, ArrayList<Double>> result = locationServiceTest.locationTest(input, date);
 		System.out.println(result);
 
-}
+	}
 	@Test
 	public void testCase10() throws ParseException {
 		int input = 1;
@@ -96,7 +96,7 @@ Test cases
 		String date = "2019-03-30";
 		Map<String, ArrayList<Double>> result = locationServiceTest.locationTest(input, date);
 		System.out.println(result);
-}
+	}
 	@Test
 	public void testCase13() throws ParseException {
 		int input = 1;
@@ -118,7 +118,7 @@ Test cases
 		String date = "2019-03-31";
 		Map<String, ArrayList<Double>> result = locationServiceTest.locationTest(input, date);
 		System.out.println(result);
-}
+	}
 	@Test
 	public void testCase16() throws ParseException {
 		int input = 0;
@@ -132,7 +132,7 @@ Test cases
 		String date = "2019-03-28";
 		Map<String, ArrayList<Double>> result = locationServiceTest.locationTest(input, date);
 		System.out.println(result);
-}
+	}
 	@Test
 	public void testCase18() throws ParseException {
 		int input = 0;
